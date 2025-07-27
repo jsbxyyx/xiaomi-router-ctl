@@ -1,0 +1,58 @@
+{
+  "routeType": "xiaomi",
+  "xiaomi": {
+    "routeURL": "http://192.168.31.1",
+    "pwd": "",
+    "key": "",
+    "mac": "",
+    "limit": [
+      {
+        "enable": true,
+        "name": "Redmi9A",
+        "mac": "",
+        "time": [["22:00", "23:59"]],
+        "updown": ["20", "20"]
+      },
+      {
+        "enable": true,
+        "name": "iPhone",
+        "mac": "",
+        "time": [["22:48", "23:59"]],
+        "updown": ["20", "20"]
+      },
+      {
+        "enable": true,
+        "name": "iPhone",
+        "mac": "",
+        "time": [["22:48", "23:59"]],
+        "updown": ["20", "20"]
+      },
+      {
+        "enable": true,
+        "name": "Redmi-12C",
+        "mac": "",
+        "time": [["22:00", "23:59"]],
+        "updown": ["20", "20"]
+      },
+      {
+        "enable": true,
+        "name": "iPad",
+        "mac": "",
+        "time": [["22:00", "23:59"]],
+        "updown": ["20", "20"]
+      }
+    ]
+  },
+  "aliyun-ak": "",
+  "aliyun-sk": "",
+  "aliyun-domain": "",
+  "aliyun-rrKeyWord": "",
+  "aliyun-rrType": "",
+  "aws-region": "",
+  "aws-ak": "",
+  "aws-sk": "",
+  "aws-domain": "",
+  "aws-rrkeyword": "",
+  "aws-rrtype": "",
+  "wework-webhook": ""
+}
