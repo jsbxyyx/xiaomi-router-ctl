@@ -59,12 +59,6 @@
         </dependency>
 
         <dependency>
-            <groupId>com.alibaba.nacos</groupId>
-            <artifactId>nacos-client</artifactId>
-            <version>2.1.1</version>
-        </dependency>
-
-        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.13.1</version>
@@ -74,17 +68,6 @@
 
     <build>
         <finalName>${project.artifactId}</finalName>
-        <resources>
-            <resource>
-                <!-- 编译的时候使用dev配置 -->
-                <directory>src/main/resources/dev</directory>
-                <targetPath>.</targetPath>
-            </resource>
-            <resource>
-                <directory>src/main/resources</directory>
-                <targetPath>.</targetPath>
-            </resource>
-        </resources>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
